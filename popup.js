@@ -4,6 +4,12 @@ document.addEventListener("DOMContentLoaded",  ()=>{
   window.onload =()=>{
     var ul=document.querySelector("ul");
 var del = document.getElementById("delete");
+    
+    // checks whether the mentioned key in the chrome storage.
+//If the key that we mentioned is present  then it will create a li element and anchor element with href points to the value of that key  all this elements are append to ul.
+//And then button element created with the key as an id and append to del(mentioned above).
+// whenever you click that button a function will be executed which will remove that key in the chrome storage.  
+    
     var instagram = chrome.storage.sync.get("Instagram", function(data) {
       if(data.Instagram){
     var li = document.createElement("li");
