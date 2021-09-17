@@ -158,6 +158,10 @@ del.append(Button);
 
   }
 
+  
+  // when you submit the form the below function will happen.
+// It takes the input value and checks whether the input values contains the word that we mentioned.
+// If the mentioned word is in the input value then it locally stores the input value with  the keyword that we mentioned. 
 
 document.getElementById("btn").onclick=function (){
 var input = document.querySelector("input").value;
