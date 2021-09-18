@@ -1,4 +1,4 @@
-console.log("Thanks for using B64 encryption :)")
+console.log("Thanks for using organise_it :)")
 
 
   
